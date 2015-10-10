@@ -125,15 +125,20 @@ body {
 	.header {
 		max-width: 385px;
 	}
+	.right-brain {
+		margin-top: 1em;
+		margin-left: 1em;
+		width: 385px;
+	}
 }
 
-@media screen and (min-width: 575px) {
+@media screen and (min-width: 592px) {
 	.left-brain {
-		margin-left: calc( (100% - 575px) / 2 );
+		margin-left: calc( (100% - 592px) / 2 );
 	}
 	.right-brain {
 		margin-top: 0px;
-		margin-left: 0px;
+		margin-left: 1em;
 		width: 175px;
 	}
 }
@@ -143,6 +148,7 @@ body {
 		margin-left: calc( (100% - 720px) / 2 );
 	}
 	.right-brain {
+		margin-left: 1em;
 		width: 315px;
 	}
 }
