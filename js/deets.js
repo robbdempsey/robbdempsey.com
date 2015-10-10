@@ -1,26 +1,47 @@
 'use strict'
 
 var images = {
-	one: {
-		src: 'http://placehold.it/150x150',
-		cssClass: 'right-brain-img'
-	},
-	two: {
-		src: 'http://placehold.it/306x150',
-		cssClass: 'right-brain-img'
-	},
+	right_brain: [
+		{
+			src: './images/angela.jpg',
+			cssClass: 'right-brain-img'
+		},
+		{
+			src: './images/flies.jpg',
+			cssClass: 'right-brain-img'
+		},
+		{
+			src: './images/beach.jpg',
+			cssClass: 'right-brain-img'
+		},
+		{
+			src: './images/emma.jpg',
+			cssClass: 'right-brain-img'
+		},
+		{
+			src: './images/bella.jpg',
+			cssClass: 'right-brain-img'
+		},
+		{
+			src: './images/prodigal.jpg',
+			cssClass: 'right-brain-img'
+		}
+	],
 	display: function() {
-		iterateImgs(this.one, 2);
-		iterateImgs(this.one, 2);
-		// iterateImgs(this.two, 1);
-		iterateImgs(this.one, 2);
+		function _render(element, index, array) {
+			var _img = HTMLRBimage.replace('%data%', element.src);
+			_img = _img.replace('%css%', element.cssClass);
+			$('.right-brain').append(_img);
+		}
+
+		this.right_brain.forEach(_render)
 	}
 }
 
 var person = {
 	"firstname": 'robb',
 	"lastname": 'dempsey',
-	"profilePic": './images/20150807_profile_sq.jpg',
+	"profilePic": './images/20150807_profile_sm_sq.jpg',
 	"dob": {
 		date: '1973-03-17',
 		text: 'St. Patrick\'s Day',

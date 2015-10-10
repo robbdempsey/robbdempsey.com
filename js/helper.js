@@ -7,6 +7,7 @@ var HTMLleftbrainTxt = '<div class="left-brain-item"><span class="label">%label%
 var HTMLleftbrainLink = '<div class="left-brain-item"><span class="label">%label%:</span> <a href="%link%">%data%</a></div>';
 
 var HTMLimage = '<img src="%data%" class="%css%">';
+var HTMLRBimage = '<img src="%data%" class="%css%" height="150px">';
 var HTMLimageNoCss = '<img src="%data%">';
 var HTMLnav = '<span class="%css%">%data%</span>'
 
