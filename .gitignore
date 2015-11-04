@@ -1,0 +1,8 @@
+# NPM
+/node_modules/
+
+/nginx/
+
+# cruft
+/export/
+/blog\ post\ ideas/
