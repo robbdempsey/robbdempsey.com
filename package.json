@@ -1,0 +1,28 @@
+{
+  "name": "robbdempsey.com",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbdempsey/robbdempsey.com.git"
+  },
+  "keywords": [
+    "robb",
+    "dempsey"
+  ],
+  "author": "Robb Dempsey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robbdempsey/robbdempsey.com/issues"
+  },
+  "homepage": "https://github.com/robbdempsey/robbdempsey.com#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-responsive-images": "^0.1.7",
+    "grunt-run": "^0.5.2",
+    "http-server": "^0.8.5",
+    "imagemin-mozjpeg": "^5.1.0"
+  }
+}
