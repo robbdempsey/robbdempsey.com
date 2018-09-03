@@ -6,3 +6,5 @@
 # cruft
 /export/
 /blog\ post\ ideas/
+.DS_Store
+*.bmpr
