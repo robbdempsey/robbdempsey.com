@@ -4,6 +4,9 @@
   "license": "UNLICENSED",  
   "version": "2.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.9"
+  },
   "keywords": [
     "robb",
     "dempsey",
